@@ -2,8 +2,6 @@
 
 >> Kindly note that this tech demo has been primarily developed and tested on iOS and has not been extensively tested on other platforms, hence it may not function optimally on other platforms. Informations on platform differences known will still be provided but they are based on reliable sources from internet and has not been personally tested. Thank you for your understanding and hope you enjoy this Tech Demo!
 
-==========
-
 ## How to run Interval Timer
 ### Step 1: Install Expo CLI
 1. Run the following command globally:
@@ -65,11 +63,10 @@ You should able to see this: ![](assets/techdemo/ReactNative.png).
 2. Xcode
 >> press control + d, then command + d to open developer menu in Expo Go
 
-==========
 ## React Native Introduction
-1. React Native does not use any HTML elements like <div>, <p>, <a> etc., instead we will be using components provided by React Native.
->> <View> is similar to HTML's <div>
->> <Text> is used to display text
+1. React Native does not use any HTML elements like ‘div’, ‘p’, ‘a’ etc., instead we will be using components provided by React Native.
+>> ‘View’ is similar to HTML's div
+>> ’Text‘ is used to display text
 
 2. Styling in React Native looks similar to CSS attributes, but in fact, they are actually plain JavaScript properties.
 
