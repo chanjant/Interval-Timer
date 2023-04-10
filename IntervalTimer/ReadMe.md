@@ -19,7 +19,7 @@ sudo npm i -g expo-cli
 1. Option 1: Expo Go app
    Install the Expo Go app on your iOS or Android phone and connect to the same wireless network as your computer. On Android, use the Expo Go app to scan the QR code from your terminal to open your project. On iOS, use the built-in QR code scanner of the default iOS Camera app.
 
->> Kindly note that this will not work if you are using <university's Wifi>. If you do not have any access to other wireless network other than university's Wifi, please use mobile data and connect laptop to mobile hotspot, otherwise, see Option 2 or 3.
+>> Kindly note that this will not work if you are using university's Wifi. If you do not have any access to other wireless network other than university's Wifi, please use mobile data and connect laptop to mobile hotspot, otherwise, see Option 2 or 3.
 
 2. Option 2: iOS simulator
    Install Xcode from Macbook App Store
@@ -35,7 +35,7 @@ npm install
 npx expo start
 ```
 
->> For MacBook and iPhone user, scan the QR code with Camera app which will then lead you to Expo Go, or press i to open iOS simulator (XCode).
+- For MacBook and iPhone user, scan the QR code with Camera app which will then lead you to Expo Go, or press i to open iOS simulator (XCode).
 Otherwise, please follow the instructions in the terminal.
 >> Also, please make sure that you have terminated other Expo projects before running this
 
@@ -58,26 +58,26 @@ You should able to see this: ![](assets/techdemo/ReactNative.png).
 
 ### Step 3: Open developer menu
 1. iPhone and Andriod
->> Shake your device to open developer menu in Expo Go
+- Shake your device to open developer menu in Expo Go
 
 2. Xcode
->> press control + d, then command + d to open developer menu in Expo Go
+- press control + d, then command + d to open developer menu in Expo Go
 
 ## React Native Introduction
 1. React Native does not use any HTML elements like ‘div’, ‘p’, ‘a’ etc., instead we will be using components provided by React Native.
->> ‘View’ is similar to HTML's div
->> ’Text‘ is used to display text
+- ‘View’ is similar to HTML's div
+- ’Text‘ is used to display text
 
 2. Styling in React Native looks similar to CSS attributes, but in fact, they are actually plain JavaScript properties.
 
 3. Navigating between screens
->> Install the following packages:
+- Install the following packages:
 ```sh
 npm install @react-navigation/native @react-navigation/native-stack
 npm install react-native-screens react-native-safe-area-context
 ```
 
->> Add the following code to 'App.js':
+- Add the following code to 'App.js':
 ```js
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -99,7 +99,7 @@ export default function App() {
 }
 ```
 
->> Add the following code to the screen components:
+- Add the following code to the screen components:
 ```js
 import { Text, Button, View } from 'react-native';
 
@@ -117,7 +117,6 @@ export default function Launch( { navigation }) {
 }
 ```
 
-==========
 ## Build your own Interval Timer
 ### Step 1: Create folders and files needed for Launch Screen
 
